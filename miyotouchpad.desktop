@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Touchpad Controls
+Comment=Turn your touchpad on or off.
+Categories=Utility;
+Exec=/bin/miyo-touchpad
+Icon=input-touchpad

@@ -1,0 +1,7 @@
+#!/bin/sh
+yad --title="Touchpad Controls" --width=350 --window-icon="/usr/share/miyolinux/miyolinux.png" --text-align=center --center --buttons-layout="center" --text="
+HINT: Your touchpad must have already been ON and active before selecting Off While Typing.
+" \
+--button="On":"synclient TouchpadOff=0" \
+--button="Off":"synclient TouchpadOff=1" \
+--button="Off While Typing":"syndaemon -i 2.0 -d" \
